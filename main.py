@@ -16,14 +16,14 @@ def multiplymultiplenumbers(numbers):
 def isitaninteger(num):
     return num == int(num)
 
-#Devuelve True si el número es par
+#Devuelve True si el número es entero y par
 def isiteven(num):
     return isitaninteger(num) and num % 2 == 0
 
 def main():
   #Muestra el menú y pide al usuario que elija una opción
   print("Calculadora")
-  print("1) Sumar  2) Multiplicar  3) ¿Es par?  4) ¿Es entero?")
+  print("1) Sumar  2) Multiplicar  3) ¿Es entero y par?  4) ¿Es entero?")
   opcion = input("Elige una opción: ")
 
 #Opcion 1 y 2: pide una lista de números y llama a la función correspondiente
